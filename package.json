@@ -1,0 +1,24 @@
+{
+  "name": "nothing",
+  "version": "1.0.0",
+  "description": "This is a sample package",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "author": "uncagedspirit",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.0.5",
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mysql2": "^3.14.2"
+  }
+}
