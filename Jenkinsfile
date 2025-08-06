@@ -4,7 +4,7 @@ pipeline{
     stages {
         stage('Checkout') {
             steps {
-                git 'https;//github.com/testr-epo/npmExercies.git'
+                git branch: 'master', url: 'https;//github.com/testr-epo/npmExercies.git'
             }
         }
         stage('Build') {
